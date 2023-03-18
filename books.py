@@ -6,7 +6,8 @@ BOOKS = {
     'book_1': {'title': 'Python for all', 'author':'Maria kyle','year': 2006},
     'book_2': {'title': 'AI principles', 'author':'Daniel Walu','year': 2008},
     'book_3': {'title': 'Scratch rocks', 'author':'claire kim','year': 2007},
-    'book_4': {'title': 'Sci for all', 'author':'Kaf Josh','year': 2009}
+    'book_4': {'title': 'Sci for all', 'author':'Kaf Josh','year': 2009},
+    'book_4': {'title': 'Added here', 'author':'Penny Miles','year': 2019}
 
 }
 
