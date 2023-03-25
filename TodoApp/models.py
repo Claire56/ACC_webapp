@@ -10,7 +10,7 @@ class Users(Base):
     email = Column(String, unique= True , index=True)
     user_name = Column(String, unique= True , index=True)
     fist_name = Column(String)
-    LastName = Column(String)
+    last_name = Column(String)
     hash_password  = Column(String)
     is_active = Column(Boolean, default = True)
 
