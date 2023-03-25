@@ -14,7 +14,7 @@ class Users(Base):
     hash_password  = Column(String)
     is_active = Column(Boolean, default = True)
 
-    task = relationship('todos', back_populates= 'owner')
+    task = relationship('Todos', back_populates= 'owner')
 
 
 class Todos(Base):
@@ -27,7 +27,7 @@ class Todos(Base):
     complete  = Column(Boolean, default = False)
     owner_id = Column(Integer, ForeignKey('users.id'))
 
-    owner = relationship('users', back_populates='task')
+    owner = relationship('Users', back_populates='task')
 
 
 
